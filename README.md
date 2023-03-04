@@ -1,24 +1,22 @@
-# README
+# Rails ChatGPT
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+このプロジェクトは、ChatGPTを使用して作成したRuby on Railsアプリケーションです。ほとんどすべてのソースコードはChatGPTが書いており、READMEファイルにもChatGPTが記載しています。
 
-Things you may want to cover:
+## インストール方法
 
-* Ruby version
+1. リポジトリをクローンしてください。
+2. Dockerイメージをビルドしてください。
+3. Dockerコンテナを起動してください。
+4. Webブラウザで http://localhost:3000 にアクセスしてください。
 
-* System dependencies
+## 使い方
 
-* Configuration
+[アプリケーションの使い方や機能についてここに記述してください。]
 
-* Database creation
+## ライセンス
 
-* Database initialization
+このプロジェクトは、MITライセンスの下で公開されています。
 
-* How to run the test suite
+---
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+このコードは、ChatGPTが書いたものです。
