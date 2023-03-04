@@ -1,0 +1,14 @@
+<%= form_for @message do |f| %>
+  <%= f.label :message %>
+  <%= f.text_field :message %>
+  <%= f.submit %>
+<% end %>
+
+<% if @messages.present? %>
+  <h1>All Messages</h1>
+  <ul>
+    <% @messages.each do |message| %>
+      <li><%= message.created_at %> <%= message.message %></li>
+    <% end %>
+  </ul>
+<% end %>
